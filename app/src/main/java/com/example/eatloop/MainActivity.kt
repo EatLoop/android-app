@@ -5,11 +5,17 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.eatloop.ui.theme.EatloopTheme
+import com.example.eatloop.presentation.theme.EatloopTheme
+import com.example.eatloop.screen.ChangePassword
+import com.example.eatloop.screen.ForgetPassword
+import com.example.eatloop.screen.LoginSigup
+import com.example.eatloop.screen.OTP
+import com.example.eatloop.screen.OnboardingActivity
+import com.example.eatloop.screen.PasswordChanged
+import com.example.eatloop.screen.Splash
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

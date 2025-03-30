@@ -1,4 +1,4 @@
-package com.example.eatloop.ui.theme
+package com.example.eatloop.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -21,10 +21,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginSignupScreen"
+            android:name=".screen.LoginSignupScreen"
             android:exported="false" />
         <activity
-            android:name=".ForgetPasswordScreen"
+            android:name=".screen.ForgetPasswordScreen"
             android:exported="false" />
 <!--        <activity-->
 <!--            android:name=".SplashScreen"-->

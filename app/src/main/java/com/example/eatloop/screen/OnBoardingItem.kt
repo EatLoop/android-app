@@ -1,4 +1,4 @@
-package com.example.eatloop
+package com.example.eatloop.screen
 
 data class OnboardingItem(
     val title: String,

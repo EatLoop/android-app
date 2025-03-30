@@ -1,4 +1,4 @@
-package com.example.eatloop
+package com.example.eatloop.screen
 
 import androidx.activity.ComponentActivity
 import android.annotation.SuppressLint
@@ -17,12 +17,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import androidx.navigation.compose.rememberNavController
-import com.example.eatloop.ui.theme.EatloopTheme
+import com.example.eatloop.presentation.theme.EatloopTheme
 
 class LoginSignupScreen : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
