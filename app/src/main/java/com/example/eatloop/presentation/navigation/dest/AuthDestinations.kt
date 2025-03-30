@@ -4,9 +4,18 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 sealed interface AuthDestinations {
+    @Serializable
     data object Login : AuthDestinations
+
+    @Serializable
     data object Signup : AuthDestinations
+
+    @Serializable
     data object Reset : AuthDestinations
+
+    @Serializable
     data object Otp : AuthDestinations
-    data object NewPass: AuthDestinations
+
+    @Serializable
+    data object NewPass : AuthDestinations
 }

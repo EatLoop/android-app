@@ -4,7 +4,12 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 sealed interface RootDestinations {
+    @Serializable
     data object OnBoarding : RootDestinations
-    data object AuthGraph  : RootDestinations
+
+    @Serializable
+    data object AuthGraph : RootDestinations
+
+    @Serializable
     data object HomeGraph : RootDestinations
 }
