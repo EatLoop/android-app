@@ -1,4 +1,4 @@
-package com.example.eatloop.screen
+package com.example.eatloop.presentation.screen
 
 import android.annotation.SuppressLint
 import com.example.eatloop.presentation.theme.EatloopTheme

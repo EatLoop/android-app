@@ -1,4 +1,4 @@
-package com.example.eatloop.screen
+package com.example.eatloop.presentation.screen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize

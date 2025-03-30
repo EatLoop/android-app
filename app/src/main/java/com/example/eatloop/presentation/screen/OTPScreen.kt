@@ -1,4 +1,4 @@
-package com.example.eatloop.screen
+package com.example.eatloop.presentation.screen
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember

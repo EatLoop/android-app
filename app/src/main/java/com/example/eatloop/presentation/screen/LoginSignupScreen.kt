@@ -1,4 +1,4 @@
-package com.example.eatloop.screen
+package com.example.eatloop.presentation.screen
 
 import androidx.activity.ComponentActivity
 import android.annotation.SuppressLint

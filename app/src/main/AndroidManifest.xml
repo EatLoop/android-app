@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".EatLoopApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -21,10 +22,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".screen.LoginSignupScreen"
+            android:name=".presentation.screen.LoginSignupScreen"
             android:exported="false" />
         <activity
-            android:name=".screen.ForgetPasswordScreen"
+            android:name=".presentation.screen.ForgetPasswordScreen"
             android:exported="false" />
 <!--        <activity-->
 <!--            android:name=".SplashScreen"-->
